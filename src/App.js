@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';  
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';  
+import Login from './Login';  
+import Home from './Home';  
+import Payment from './Payment';  
+import Userprofile from './Userprofile';  
+import Historya from './Historya';  
+import BarberProfile from './BarberProfile';  
+import Appointment from './Appointment';  
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const App = () => {  
+  return (  
+    <Router>  
+      <Routes>  
+        <Route path="/" element={<Login />} />  
+        <Route path="/home" element={<Home />} />  
+        <Route path="/Payment" element={<Payment />} />
+        <Route path="/Userprofile" element={<Userprofile />} />  
+        <Route path="/Historya" element={<Historya />} />  
+        <Route path="/BarberProfile" element={<BarberProfile />} />  
+        <Route path="/Appointment" element={<Appointment />} />  
+      </Routes>  
+    </Router>  
+  );  
+};  
 
 export default App;

@@ -1,0 +1,173 @@
+/* AppointmentBooking.css */
+.appointment-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+  
+  .calendar-header {
+    background-color: #F5C754;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+    padding: 20px;
+    transition: all 0.3s ease;
+    color: #000000;
+  }
+  
+  .calendar-header.expanded {
+    padding-bottom: 300px;
+  }
+  
+  .header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .back-arrow {
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .month-selector {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .arrow {
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .full-calendar {
+    display: none;
+  }
+  
+  .full-calendar.visible {
+    display: block;
+  }
+  
+  .weekdays {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .weekday {
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+  }
+  
+  .calendar-day {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+  
+  .calendar-day.selected {
+    background-color: white;
+    color: #fbbf24;
+  }
+  
+  .week-view {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .week-view.hidden {
+    display: none;
+  }
+  
+  .day-column {
+    text-align: center;
+  }
+  
+  .day-name {
+    margin-bottom: 5px;
+  }
+  
+  .day-number {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+  
+  .day-number.selected {
+    background-color: white;
+    color: #000000;
+  }
+  
+  .time-selection {
+    flex: 1;
+    background-color: #121C24;
+    padding: 20px;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    margin-top: 20px;
+  }
+  
+  .time-section {
+    margin-bottom: 20px;
+  }
+  
+  .time-section h3 {
+    color: #ffffff;
+    margin-bottom: 10px;
+  }
+  
+  .time-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+  
+  .time-button {
+    background-color: #29384D;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .time-button.selected {
+    border: 2px solid #F5C754;
+  }
+  
+  .booking-section {
+    background-color: #121C24;
+    padding-bottom: 100px;
+  }
+  
+  .book-button {
+    width: 80%;
+    background-color: #F5C754;
+    color: black;
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    top: -35%;
+    margin-left: 33px;
+  }
