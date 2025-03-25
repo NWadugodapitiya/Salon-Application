@@ -1,3 +1,29 @@
+# Salon Application - Ueux 💇‍♀️💅
+
+Welcome to the **Salon Application - Ueux**! This is a frontend application built using **React.js** to provide a seamless and elegant user experience for salon management.
+
+## 🚀 Features
+- **Landing Page**: A modern and interactive homepage to welcome users.
+- **Service Listings**: Showcase all the salon services with descriptions and prices.
+- **Booking System**: Users can easily book appointments.
+- **Contact Page**: A simple form for inquiries and contact information.
+- **Responsive Design**: Fully optimized for mobile and desktop.
+
+## 🛠️ Technologies Used
+- **Frontend**: React.js
+- **Styling**: Tailwind CSS or Bootstrap
+- **State Management**: Context API or Redux (optional)
+- **Version Control**: Git and GitHub
+  
+## 📖 Usage
+- Browse available salon services.
+- Book an appointment easily.
+- Get in touch through the contact form.
+---
+
+Experience beauty and relaxation with the **Salon Application - Ueux**! 💆‍♂️✨
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
